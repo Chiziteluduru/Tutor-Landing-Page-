@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.cover{
+    margin: 0;
+    border: 0;
+}
+
+.div1{
+    margin: 0;
+    border: 0;
+    min-height: 60ch;
+    background-image: url('Images/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    margin: 0;
+    border: 0;
+}
+
+.navbar{
+   margin-top: 34px;
+   display: inline-block;
+}
+
+.navbar ul img{
+    
+    display: inline-block;
+    height: 116px;
+    width: 116px;
+    position: absolute;
+    top: 16px;
+    left: 29px;
+    
+}
+.navbar ul img:hover{
+    left: 24px;
+    top: 12px;
+    transition: 1s, ease;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navbar ul li a{
+    position: relative;
+    right: 0px;
+    left: 216px;
+    top: 25px;
+    text-decoration: none;
+    color: pink;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    background-color: yellow;
+    color: white;
+    transition: 1s, ease;
+}
+.navbar ul li button{
+    background-color: white;
+    color: blue;
+    position: relative;
+    right: 0px;
+    left: 278px;
+    top: 21px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 124px;
+}
+.navbar ul li button:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s, ease;
+}
+
+.article{
+    margin-top: 202px;
+    text-align: center;
+}
+.article h1{
+    
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-bottom: 16px;
+
+}
+.article h1:hover{
+    text-transform: uppercase;
+    font-size: 45px;
+    transition: 1s, ease;
+}
+.article p{
+    color: gray;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 29px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+}
+.article button{
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 38px;
+    width: 158px;
+    border-radius: 10px;
+
+}
+.article button:hover{
+    background-color: white;
+    color: yellowgreen;
+    height: 40px;
+    width: 160px ;
+}
+
+.div2{
+    margin-top: 74px;
+    text-align: center;
+}
+.div2 h1{
+    font-size: 42px;
+    color: gold;
+    margin-bottom: 20px;
+
+}
+.div2 p{
+    font-size: 25px;
+    color: goldenrod;
+    margin-bottom: 32px;
+}
+
+.div2 div img{
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 324px;
+    width: 324px;
+    padding: 0px 15px;
+}
+
+.div3{
+    margin-top: 76px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 39px;
+}
+.div3 div img{
+    height: 316px;
+    width: 1060px;
+    margin-bottom: 56px;
+
+}
+.div3 h1{
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gold;
+    margin-bottom: 20px;
+}
+.div3 p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    margin-bottom: 32px;
+}
+.div3 button{
+    height: 34px;
+    width: 98px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 10px;
+}
+.div3 button:hover{
+    background-color: white;
+    color: yellowgreen;
+}
+
+.footer{
+    height: 225px;
+    width: 100%;
+    background-color: gold;
+}
+.heading{
+    max-width: 1010px;
+    width: 90%;
+    margin-left: 26px;
+    margin-bottom: 21px;
+    color: white;
+}
+.content{
+   display: flex;
+   justify-content: left;
+   color: white;
+   margin: 0rem; 
+   margin-left: 20px;
+}
+.content .services {
+    padding-left: 10px;
+    padding-right: 100px;
+    }
+.content .socialmedia {
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.content .links {
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.content .details {
+    padding-left: 10px;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+}
+.content a:hover{
+    color: grey;
+}
+
+footer{
+    margin-top: 29px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
